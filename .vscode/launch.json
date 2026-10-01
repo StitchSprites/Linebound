@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Linebound",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}\\build\\Linebound.exe",
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "Build Linebound",
+            "externalConsole": false
+        }
+    ]
+}
